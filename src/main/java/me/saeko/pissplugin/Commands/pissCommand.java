@@ -12,7 +12,7 @@ public class pissCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command command, String label, String[] args) {
         Player p = (Player) sender;
-        Bukkit.broadcastMessage(p.getName() + " has publicly urinated lmao");
+        Bukkit.broadcastMessage(p.getName() + " has publicly urinated lmao.");
 
         return true;
     }
