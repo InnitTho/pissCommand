@@ -1,0 +1,11 @@
+name: PissPlugin
+version: '${project.version}'
+main: me.saeko.pissplugin.PissPlugin
+api-version: 1.17
+commands:
+  piss:
+    description: haha
+    usage: /<command>
+    aliases:
+      -pee
+      - wee
